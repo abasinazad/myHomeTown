@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pinyon Script', cursive;
+    font-family: 'Syne Mono', monospace;
+  }
+  
+  body {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    background-color: black;
+    color:#EAAD43
+  }
+  
+  header {
+    background-color: #EAAD43;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    
+  }
+  
+  header h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+    text-shadow: 1px 5px 6px green;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    border-bottom: 2px solid green;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+  }
+    
+  
+  #home {
+    position: relative;
+    height: 700px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Birmingham-Skyline-from-Edgbaston-crop.jpg/1920px-Birmingham-Skyline-from-Edgbaston-crop.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-position: center;
+    background-size: cover;
+   
+  }
+  
+  #home h2 {
+    color: rgb(119, 156, 18);
+    font-size: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 6px 7px 7px black;
+    /* border: 5px dotted black; */
+    padding: 10px;
+  }
+  
+  #home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  #home img:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  #about {
+    padding: 50px;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    background-color: black;
+    text-align: center;
+  }
+  
+  #history {
+    padding: 50px;
+    background-color: black;
+  }
+  
+  #history h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  
+  #places {
+    padding: 40px;
+  }
+  
+  #places h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #places ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin-top: 40px;
+    font-size: 20px;
+    text-shadow: #EAAD43;
+    color: burlywood;
+  }
+  
+  #places li {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+   #places img {
+    max-width: 100%;
+    /* height: auto; */
+    border-radius: 500px;
+    display: block;
+    margin: 0 auto;
+    color: green;
+    transition: transform 0.5s ease-in-out;}
+
+  #places a {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .video-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+    
+  #places img:hover {
+    transform: scale(1.1);
+    
+  }
+  
+  .thankyou {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .developedBy {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: rgb(252, 255, 236);
+  }
+
+  
+  #backToTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    color: #EAAD43;
+   
+  }
+  
+  /* Thank You  */
